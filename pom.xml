@@ -33,6 +33,10 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
@@ -46,6 +50,11 @@
     	<groupId>org.springframework.data</groupId>
     	<artifactId>spring-data-jpa</artifactId>
     	<version>2.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.49</version>
 		</dependency>
 	</dependencies>
 
