@@ -13,7 +13,6 @@ public class VocabController {
 	public Vocab getVocab() {
 		
 		Vocab inheritance = new Vocab("OOP", "inheritance", "One of the four pillars of OOP, this solves the problem of redundant code by allowing more specific versions of a class to use an existing implementation of fields or methods");
-
 		return inheritance;
 	}
 }
