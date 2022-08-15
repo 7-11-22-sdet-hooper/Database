@@ -1,15 +1,25 @@
 package com.ReviewSite.ReviewSite.model;
 
+import javax.annotation.Generated;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+@Entity
 public class Vocab {
 public String category;
-public String keyWord;
-public String defition;
+public String word;
+public String wordDefinition;
 
-public Vocab(String category, String keyWord, String defition) {
-	super();
+@Id
+@GeneratedValue
+public long vocab_id;
+public Vocab(String category, String word, String wordDefinition) {
+	
 	this.category = category;
-	this.keyWord = keyWord;
-	this.defition = defition;
+	this.word = word;
+	this.wordDefinition = wordDefinition;
+}
+public Vocab() {
 }
 
 
