@@ -44,6 +44,7 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES
 (1,"Object",""),
 (1,"Object","✅😊😂🤣❤️😍👌😒😘💕😁"),
 (999,'TEST VOCAB WORD','TEST DEFINITION'),
+(999,'<strong>TEST VOCAB WORD</strong>','TEST DEFINITION'),
 (999,'Pneumonoultramicroscopicsilicovolcanoconiosis','Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,');
 
 
