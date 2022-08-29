@@ -40,7 +40,12 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES
 (1,"final","A modifier used for classes, variables, and methods which makes them unchangeable (impossible to inherit or override)."),
 (1,"Object","It is an instance of a class."),
 (1,"Class","It defines the common variables and methods of a set of objects."),
-(999,'TEST VOCAB WORD','TEST DEFINITION');
+(1,"","It is an instance of a class."),
+(1,"Object",""),
+(1,"Object","✅😊😂🤣❤️😍👌😒😘💕😁"),
+(999,'TEST VOCAB WORD','TEST DEFINITION'),
+(999,'Pneumonoultramicroscopicsilicovolcanoconiosis','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.');
+
 
 
 INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `correct_answer`) VALUES
