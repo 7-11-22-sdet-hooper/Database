@@ -1,7 +1,7 @@
 USE mysql;
-DROP SCHEMA IF EXISTS vocab;
-CREATE SCHEMA vocab;
-USE vocab;
+DROP SCHEMA IF EXISTS test_schema;
+CREATE SCHEMA test_schema;
+USE test_schema;
 
 CREATE TABLE `category` (
   `id` int UNSIGNED NOT NULL,
@@ -23,10 +23,10 @@ CREATE TABLE `multiple_choice` (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
   `category_id` int UNSIGNED NOT NULL,
   `question` varchar(255) NOT NULL,
-  `a` varchar(255),
-  `b` varchar(255),
-  `c` varchar(255),
-  `d` varchar(255),
+  `a` varchar(200),
+  `b` varchar(200),
+  `c` varchar(200),
+  `d` varchar(200),
   `correct_answer` varchar(1) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_MultipleChoice_Category_id` (`category_id`),
