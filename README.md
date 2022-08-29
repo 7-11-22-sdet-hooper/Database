@@ -1,7 +1,19 @@
-### automated setup files for the TEST database.
-should webhook into jenkins if setup properly
-please push all changes to 'test' branch - this is the head of the repo.
-the other branch here, 'production', is not yet incorporated into any pipelines. Once it is it may become the default branch. Not sure yet.
+# vocabScripts
+Scripts for SDET-Hooper interview prep quiz game (testing/development version).
+Each push to this repository triggers the scripts to be executed on our SQL server which provides data to the application itself.
+Please push all changes to 'test' branch - this is the head of the repo.
 
-##For now:
-please add as many questions and vocab words as you would like/can!
+## schema.sql
+- builds db
+- creates 'category' table
+- creates 'vocab' and 'multiple_choice' tables
+- links 'vocab' and ' table to 'category' 
+
+## data.sql
+- populates all tables
+- *edit this file to expand the quiz game 
+
+Originally uploaded by Nathan
+Thank you to Jack, Andrea, Diana, Dilan, Nay Chi, Jon, and David
+
+![DB Deployment](https://user-images.githubusercontent.com/103597670/187296955-d664927e-c1d7-40a2-8f11-7d776b5167f3.png)
