@@ -17,6 +17,7 @@ INSERT INTO category VALUES
 (6, "Selenium"),
 (7, "OOP"),
 (8, "Cucumber"),
+(998, "OTHER TEST CATEGORY"),
 (999, "TEST CATEGORY");
 
 INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES
