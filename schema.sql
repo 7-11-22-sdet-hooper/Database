@@ -1,7 +1,9 @@
-USE mysql;
-DROP SCHEMA IF EXISTS vocab;
-CREATE SCHEMA vocab;
-USE vocab;
+# MAKE SURE THIS DOESN'T HIT THE WRONG DATABASE. THIS SCRIPT SHOULD ONLY TARGET `production`
+
+USE production;
+DROP TABLE IF EXISTS `production`.`multiple_choice`;
+DROP TABLE IF EXISTS `production`.`vocab`;
+DROP TABLE IF EXISTS `production`.`category`;
 
 CREATE TABLE `category` (
   `id` int UNSIGNED NOT NULL,
@@ -22,19 +24,19 @@ CREATE TABLE `vocab` (
 CREATE TABLE `multiple_choice` (
   `id` int UNSIGNED NOT NULL AUTO_INCREMENT,
   `category_id` int UNSIGNED NOT NULL,
-  `question` varchar(255) NOT NULL,
-  `a` varchar(255),
-  `b` varchar(255),
-  `c` varchar(255),
-  `d` varchar(255),
+  `question` varchar(500) NOT NULL,
+  `a` varchar(500),
+  `b` varchar(500),
+  `c` varchar(500),
+  `d` varchar(500),
   `correct_answer` varchar(1) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_MultipleChoice_Category_id` (`category_id`),
   CONSTRAINT `FK_MultipleChoice_Category_id` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE `login` (
-	`id` int unsigned NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `login` (
+        `id` int unsigned NOT NULL AUTO_INCREMENT,
     `username` varchar(50) DEFAULT NULL,
     `password` varchar(255) DEFAULT NULL,
     `password_salt` varchar(50) DEFAULT NULL,

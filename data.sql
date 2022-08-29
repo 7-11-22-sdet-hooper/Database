@@ -1,5 +1,20 @@
-use vocab;
-INSERT INTO category VALUES
+# MAKE SURE THIS TARGETS THE 'production' DATABASE!
+
+USE production;
+
+# CHECK FOR AND DROP EXISTING DATA FOR A CLEAN REBUILD 
+
+SET FOREIGN_KEY_CHECKS = 0;
+
+TRUNCATE multiple_choice;
+TRUNCATE vocab;
+TRUNCATE category;
+
+SET FOREIGN_KEY_CHECK = 1;
+
+# REBUILD ALL DATA
+
+INSERT INTO category VALUES # (int <id>, string <name>)
 (1, "Java"),
 (2, "SQL"),
 (3, "Project Manager"),
@@ -8,7 +23,8 @@ INSERT INTO category VALUES
 (6, "Selenium"),
 (7, "OOP"),
 (8, "Cucumber");
-INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES
+
+INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_id>, string <word>, string <definition>)
 (7,"inheritance","One of the four pillars of OOP, this solves the problem of redundant code by allowing more specific versions of a class to use an existing implementation of fields/methods."),
 (7,"polymorphism","One of the four pillars of OOP, this removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed."),
 (7,"abstraction","One of the four pillars of OOP, this hides details and complexity from other interacting classes to both simplify and organize code."),
@@ -28,7 +44,8 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES
 (1,"final","A modifier used for classes, variables, and methods which makes them unchangeable (impossible to inherit or override)."),
 (1,"Object","It is an instance of a class."),
 (1,"Class","It defines the common variables and methods of a set of objects.");
-INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `correct_answer`) VALUES
+
+INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `correct_answer`) VALUES # (int <category_id>, string <question>, string <a>, string <b>, string <c>, string <d>, string<correct_answer>)
 (3,"What does MVP stand for in Project Management?","Minimum Viable Product", "Most Valuable Programmer","Minimal Verbosity Programming","Most Volatile Pikachu","A"),
 (1,"Which access modifier is most restrictive?","protected", "public", "private", "final", "C"),
 (2,"What keyword is used to combine tables in SQL?","ADD","JOIN","STITCH","COMBINE", "B"),
