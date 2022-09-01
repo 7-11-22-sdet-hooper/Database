@@ -45,9 +45,9 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_
 (3,"Waterfall Method","This SDLC is heavily structured and resistant to change."),
 (1,"final","A modifier used for classes, variables, and methods which makes them unchangeable (impossible to inherit or override)."),
 (1,"Object","It is an instance of a class."),
-(1,"Class","It defines the common variables and methods of a set of objects.");
+(1,"Class","It defines the common variables and methods of a set of objects."),
 (4,"Test Execution", "the process of executing the code and comparing the expected and actual results."),
-(4,"Defect Reporting", "s a process of finding defects in the application under test or product by testing or recording feedback from customers"),
+(4,"Defect Reporting", "s a process of finding defects in the application under test or product by testing or recording feedback from customers");
 
 
 INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `correct_answer`) VALUES # (int <category_id>, string <question>, string <a>, string <b>, string <c>, string <d>, string<correct_answer>)
