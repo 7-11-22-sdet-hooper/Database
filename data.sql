@@ -99,6 +99,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
 (4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C"),
 (9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B"),
+(3, "What are the three pillars of scrum?", "Transparency, Inspection, Change", "Transparency, Verification, Adaptation", "Transparency, Inspection, Adaptation", "Transparency, Change, Adaptation", "C"),
 (4,"Smoke Testing is s quick test performed to ensure that the software works at the most basic level and doesn't crash when it's started.", "TRUE", "FALSE",NULL, NULL, "A"),
 (4,"Security testing tries to break a software's security checks, to gain access to confidential data", "TRUE", "FALSE",NULL, NULL, "A"),
 (4," What is a test environment?", "The room the test in preformed in", "a server/computer on which a tester runs their tests.", "the surroundings or conditions in which a tester operates", "a test done on the tester's surroundings", "B"),
