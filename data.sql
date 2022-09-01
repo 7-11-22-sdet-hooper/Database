@@ -1,4 +1,4 @@
-^# MAKE SURE THIS TARGETS THE 'production' DATABASE!
+# MAKE SURE THIS TARGETS THE 'production' DATABASE!
 
 USE production;
 
