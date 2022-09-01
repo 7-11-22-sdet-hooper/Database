@@ -87,4 +87,6 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (10,"What is the status code for a success or ok?","200","405","202","369","A"),
 (4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
 (4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C"),
-(9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B");
+(9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B"),
+(8, "Which process does Cucumber support", "ATD", BDB”, "DDD", "BDD", "D"),
+(8, "Which language is used in Cucumber", "Jeninks", "CSS", "Gherkin", "AWS");
