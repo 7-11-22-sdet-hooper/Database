@@ -17,7 +17,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 INSERT INTO category VALUES # (int <id>, string <name>)
 (1, "Java"),
 (2, "SQL"),
-(3, "Project Manager"),
+(3, "Project Managment"),
 (4, "Testing"),
 (5, "Jenkins"),
 (6, "Selenium"),
@@ -58,7 +58,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"What are the four levels of testing?","Unit - Integration - System - Acceptance","Non-functional- Functional- Unit- Maintenance","Unit- Integrations- Sanity- Regression","Load- Performance- Stability- Volume","A"),
 (2,"In SQL, what uniquely identifies records?","Main Key", "Distinct ID", "Primary Key", "Foreign Key", "C"),
 (2,"In SQL, which keyword is NOT an aggregate function? ", "MIN()", "AVG()", "COUNT()", "DIV()", "D"),
-(4,"Which is white box testing?","A method of software testing in which the tester has limited knowledge of the internal details of the program.", "A method of software testing that examines the functionality of an application without peering into its internal structures or workings.", "A method of software testing that allows testers to inspect and verify the inner workings of a software systems code, infrastructure, and integrations with external systems.","A method of software testing in which test cases, conditions, and data are derived from requirements.", "B"),
+(4,"Which is white box testing?","A method of software testing in which the tester has limited knowledge of the internal details of the program.", "A method of software testing that examines the functionality of an application without peering into its internal structures or workings.", "A method of software testing that allows testers to inspect and verify the inner workings of a software systems code, infrastructure, and integrations with external systems.","A method of software testing in which test cases, conditions, and data are derived from requirements.", "C"),
 (8,"What software uses Human-Readable language(I.E English) to describe testing cases at a high-level?", "Watermelon", "Raspberry Pi", "Guava", "Cucumber", "D"),
 (4,"Which of these is NOT a performance test?","Load test", "Stress test", "Unit test", "Spike test", "C"),
 (6,"Given 'String headerVar = driver.findElement(By.xpath('PH')).getText();', and also given '<h1 class ='focus'>Quiztion</h1>', what would need to replace PH for headerVar to equal 'Quiztion'? ", '/h1[@class="focus"]', "//h1[@class='focus']", "//h1[@class=focus]", "/h1[@class='focus']", "B"),
@@ -84,6 +84,15 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Test to ensure that the application can handle the expected usage (Max users, max concurrent actions, etc).","Load","Regression","Unit Tests","Accessibility","A"),
 (4,"This test checks to see if all parts of the program are accessible and if they require any specific augmentations for usage by their target audience.","Stress","Performance","Functional","Accessibility","D"),
 (8,"Which of the following is not a Gherkin keyword?","Given","When","For","Then","C"),
+(3,"Which colloquial term is NOT associated with BDD?","Red","Yellow","Green","Refator","B"),
+(3,"True/False: In Behavior Driven Development code is written before tests are created.","TRUE","FALSE",NULL,NULL,"B"),
+(3,"True/False: In Behavior Driven Development you should first create tests that fail, then write code that passes the test.","TRUE","FALSE",NULL,NULL,"A"),
+(3,"What is the final phase in the waterfall method?","Design","Maintenance","Verification","Requirements","B"),
+(3,"Which of the following involves meeting with the customer to understand the requirements in the waterfall method?","Client Planning","Implementaion","Customer Review","Conversion","A"),
+(3,"At what stage are the individual components integrated and guaranteed they are error-free to meet customer requirements?","Implementation","Conversion","Coding","Testing","D"),
+(10,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
+(10,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
+(10,"What is the status code for a success or ok?","200","405","202","369","A"),
 (15,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
 (15,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
 (15,"What is the status code is a success or ok?","200","405","202","369","A");
@@ -93,4 +102,3 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Smoke Testing is s quick test performed to ensure that the software works at the most basic level and doesn't crash when it's started.", "TRUE", "FALSE",NULL, NULL, "A"),
 (4,"Security testing tries to break a software's security checks, to gain access to confidential data", "TRUE", "FALSE",NULL, NULL, "A"),
 (4," What is a test environment?", "The room the test in preformed in", "a server/computer on which a tester runs their tests.", "the surroundings or conditions in which a tester operates", "a test done on the tester's surroundings", "B");
-
