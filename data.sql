@@ -23,8 +23,8 @@ INSERT INTO category VALUES # (int <id>, string <name>)
 (6, "Selenium"),
 (7, "OOP"),
 (8, "Cucumber"),
-(15, "REST"),
-(9, "SOA");
+(9, "SOA"),
+(10, "REST");
 
 INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_id>, string <word>, string <definition>)
 (7,"inheritance","One of the four pillars of OOP, this solves the problem of redundant code by allowing more specific versions of a class to use an existing implementation of fields/methods."),
@@ -93,9 +93,6 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (10,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
 (10,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
 (10,"What is the status code for a success or ok?","200","405","202","369","A"),
-(15,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
-(15,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
-(15,"What is the status code is a success or ok?","200","405","202","369","A"),
 (4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
 (4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C"),
 (9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B"),
