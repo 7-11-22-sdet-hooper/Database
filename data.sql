@@ -107,5 +107,5 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"There are 6 stages in the Software Testing Life Cycle","TRUE","FALSE","NULL","NULL", "A"),
 (2, "Which of the following is NOT an aggregate function in MySQL?", "RANGE()", "STD()", "COUNT()", "AVG()", "A"),
 (2, "Aggregate functions are often used with which SQL clause that helps categorize data?", "SELECT", "ORDER BY", "LEFT JOIN", "GROUP BY", "D"),
-(2, "Which is the BEST SQL query snippet to use if we want to know how many different unique people have placed orders at an e-commerce store?", "SELECT MAX(customer_id) FROM customer;", "SELECT (MAX(customer_id) - MIN(customer_id)) AS total_customers FROM customer;", "SELECT COUNT(DISTINCT customer_id) FROM order;", "SELECT COUNT(customer_id) FROM order;", "C"),
+(2, "Which is the BEST SQL query snippet to use if we want to know how many unique people have placed orders at an e-commerce store?", "SELECT MAX(customer_id) FROM customer;", "SELECT (MAX(customer_id) - MIN(customer_id)) AS total_customers FROM customer;", "SELECT COUNT(DISTINCT customer_id) FROM order;", "SELECT COUNT(customer_id) FROM order;", "C"),
 (4,"What is the first step in the Software Testing Life Cycle","Test Case Development","Test Planning","Test Execution","Requirement Analysis", "D");
