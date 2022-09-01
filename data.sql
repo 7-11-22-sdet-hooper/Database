@@ -79,4 +79,6 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Which type of tests check whether the application achieves the output expected?","Performance","Load","Production monitoring","Unit Tests","C"),
 (4,"Test to ensure that the application can handle the expected usage (Max users, max concurrent actions, etc).","Load","Regression","Unit Tests","Accessibility","A"),
 (4,"This test checks to see if all parts of the program are accessible and if they require any specific augmentations for usage by their target audience.","Stress","Performance","Functional","Accessibility","D"),
-(8,"Which of the following is not a Gherkin keyword?","Given","When","For","Then","C");
+(8,"Which of the following is not a Gherkin keyword?","Given","When","For","Then","C"),
+(4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
+(4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C");
