@@ -32,6 +32,7 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_
 (7,"abstraction","One of the four pillars of OOP, this hides details and complexity from other interacting classes to both simplify and organize code."),
 (7,"encapsulation","One of the four pillars of OOP, this focuses on organizing each class's fields and methods so that each class only needs to worry about it's own data and actions necessary to exist."),
 (1,"this","Java keyword which disambiguates an object's fields when method parameters have the same name."),
+(1, "while", "While a condition is true loop".),
 (1,"void","Java keyword indicating a method returns nothing."),
 (1,"abstract","Java keyword for:(i) a class that can't be instantiated or (ii) a method whose implementation isn't defined in said class."),
 (2,"JOIN","SQL keyword used to recombine tables, usually with one table's foreign key linking together with another table's primary key."),
