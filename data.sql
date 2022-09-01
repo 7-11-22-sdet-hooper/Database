@@ -101,4 +101,8 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B"),
 (4,"Smoke Testing is s quick test performed to ensure that the software works at the most basic level and doesn't crash when it's started.", "TRUE", "FALSE",NULL, NULL, "A"),
 (4,"Security testing tries to break a software's security checks, to gain access to confidential data", "TRUE", "FALSE",NULL, NULL, "A"),
-(4," What is a test environment?", "The room the test in preformed in", "a server/computer on which a tester runs their tests.", "the surroundings or conditions in which a tester operates", "a test done on the tester's surroundings", "B");
+(4," What is a test environment?", "The room the test in preformed in", "a server/computer on which a tester runs their tests.", "the surroundings or conditions in which a tester operates", "a test done on the tester's surroundings", "B"),
+(4,"Which one of these are NOT one of the four levels of testing","Unit","System","Acceptance","Regression", "D"),
+(4,"Which best describes black box testing in terms of knowledge of the codes internal structure","tester has full knowledge of the internal code structure?","tester has partial knowledge of the internal code structure","tester has no knowledge of internal code structure","none of the above", "A"),
+(4,"There are 6 stages in the Software Testing Life Cycle","TRUE","FALSE","NULL","NULL", "A"),
+(4,"What is the first step in the Software Testing Life Cycle","Test Case Development","Test Planning","Test Execution","Requirement Analysis", "D");
