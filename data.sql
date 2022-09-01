@@ -24,6 +24,7 @@ INSERT INTO category VALUES # (int <id>, string <name>)
 (7, "OOP"),
 (8, "Cucumber"),
 (15, "REST");
+(9, "SOA");
 
 INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_id>, string <word>, string <definition>)
 (7,"inheritance","One of the four pillars of OOP, this solves the problem of redundant code by allowing more specific versions of a class to use an existing implementation of fields/methods."),
@@ -69,7 +70,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (7,"Which option best defines Encapsulation?", "Encapsulation solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Encapsulation is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Encapsulation removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "Encapsulation is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions necessary to make its own contributions.", "D"),
 (4,"Which type of testing is an example of non-functional testing?","Regression","Scalability","Sanity","","User","B"),
 (7,"Which option best defines Inheritance?", "Inheritance is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions necessary to make its own contributions.", "Inheritance solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Inheritance is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Inheritance removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "B"),
-(1,"What does SOAP stand for?","Simple Object Access Protocol","Simple Orientation Assembly Project","Short Object Access Presentation","Sorted Array Profile","A"),
+(9,"What does SOAP stand for?","Simple Object Access Protocol","Simple Orientation Assembly Project","Short Object Access Presentation","Sorted Array Profile","A"),
 (7,"Which option best defines Polymorphism?", "Polymorphism is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Polymorphism is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions.", "Polymorphism solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Polymorphism removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "D"),
 (4,"This testing is generally done after a change, fix or feature addition.", "Accessibility", "Production monitoring", "Regression", "Stress", "C"),
 (3,"Which is NOT a pillar of kanban?","Adaptation","Limit W-i-P","Enhance Flow","Continuous Imporvement","A"),
@@ -84,3 +85,6 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (15,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
 (15,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
 (15,"What is the status code is a success or ok?","200","405","202","369","A");
+(4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
+(4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C");
+(9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering");
