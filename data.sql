@@ -81,4 +81,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Test to ensure that the application can handle the expected usage (Max users, max concurrent actions, etc).","Load","Regression","Unit Tests","Accessibility","A"),
 (4,"This test checks to see if all parts of the program are accessible and if they require any specific augmentations for usage by their target audience.","Stress","Performance","Functional","Accessibility","D"),
 (8,"Which of the following is not a Gherkin keyword?","Given","When","For","Then","C"),
+(3,"Which colloquial term is NOT associated with BDD?","Red","Yellow","Green","Refator","B"),
+(3,"True/False: In Behavior Driven Development code is written before tests are created.","TRUE","FALSE",NULL,NULL,"B"),
+(3,"True/False: In Behavior Driven Development you should first create tests that fail, then write code that passes the test.","TRUE","FALSE",NULL,NULL,"A"),
 (9,"SOAP is used in?","RESTful API's","Web Services","Monoliths","Graphic Rendering","A");
