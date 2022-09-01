@@ -1,8 +1,10 @@
-# vocabScripts
-Scripts for SDET-Hooper interview prep quiz game (testing/development version).
-Each push to this repository triggers the scripts to be executed on our SQL server, which provides data to the application itself.
+# SDET-Hooper interview prep quiz game production staging.
+
+This repository contains mysql scripts for our in-class web game/study tool.
+Each push to this repository triggers a series of scripts to rebuild  be executed on our SQL server which will, which provides data to the application itself.
 Please changes the contents of `data.sql` for now and append new categories, vocabulary words, and multiple choice questions.
-If test data is needed, a test branch can be cloned which should contain different data but keep the same basic structure.
+
+If static test data is needed, a test branch can be cloned which should contain different data but keep the same basic structure.
 
 ## schema.sql
 - builds db
