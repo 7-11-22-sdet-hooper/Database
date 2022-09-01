@@ -84,4 +84,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (3,"Which colloquial term is NOT associated with BDD?","Red","Yellow","Green","Refator","B"),
 (3,"True/False: In Behavior Driven Development code is written before tests are created.","TRUE","FALSE",NULL,NULL,"B"),
 (3,"True/False: In Behavior Driven Development you should first create tests that fail, then write code that passes the test.","TRUE","FALSE",NULL,NULL,"A"),
+(3,"What is the final phase in the waterfall method?","Design","Maintenance","Verification","Requirements","B"),
+(3,"Which of the following involves meeting with the customer to understand the requirements in the waterfall method?","Client Planning","Implementaion","Customer Review","Conversion","A"),
+(3,"At what stage are the individual components integrated and guaranteed they are error-free to meet customer requirements?","Implementation","Conversion","Coding","Testing","D"),
 (9,"SOAP is used in?","RESTful API's","Web Services","Monoliths","Graphic Rendering","A");
