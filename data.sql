@@ -86,8 +86,8 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (10,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
 (10,"What is the status code for a success or ok?","200","405","202","369","A"),
 (4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
-(8, "What is Cucumber?",  "a type of edible plant that belongs to the gourd family", "a software tool that supports behavior-driven development", "a line-oriented language that uses indentation to define structure", "an open-source automation tool written in Java with plugins built for Continuous Integration purposes", "B"),
+(8, "What is Cucumber?", "a type of edible plant that belongs to the gourd family", "a software tool that supports behavior-driven development", "a line-oriented language that uses indentation to define structure", "an open-source automation tool written in Java with plugins built for Continuous Integration purposes", "B"),
 (4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C"),
 (9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B"),
-(8, "Which process does Cucumber support", "ATD", BDB”, "DDD", "BDD", "D"),
+(8, "Which process does Cucumber support", "ATD", "BDB", "DDD", "BDD", "D"),
 (8, "Which language is used in Cucumber", "Jeninks", "CSS", "Gherkin", "AWS");
