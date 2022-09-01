@@ -42,6 +42,7 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_
 (1,"public","Java access modifier keyword which allows any class access to a field or method."),
 (1,"try-catch","Coding structure which allows the developer to define specific behavior in preparation of a likely error during runtime."),
 (7,"constructor","A method used to create a new object of a particular class."),
+(8,"cucumber", "Automation testing framework."),
 (7,"class","A blueprint for a logical grouping of methods and fields."),
 (3,"Waterfall Method","This SDLC is heavily structured and resistant to change."),
 (1,"final","A modifier used for classes, variables, and methods which makes them unchangeable (impossible to inherit or override)."),
