@@ -17,7 +17,7 @@ SET FOREIGN_KEY_CHECK = 1;
 INSERT INTO category VALUES # (int <id>, string <name>)
 (1, "Java"),
 (2, "SQL"),
-(3, "Project Manager"),
+(3, "Project Managment"),
 (4, "Testing"),
 (5, "Jenkins"),
 (6, "Selenium"),
@@ -81,4 +81,4 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Test to ensure that the application can handle the expected usage (Max users, max concurrent actions, etc).","Load","Regression","Unit Tests","Accessibility","A"),
 (4,"This test checks to see if all parts of the program are accessible and if they require any specific augmentations for usage by their target audience.","Stress","Performance","Functional","Accessibility","D"),
 (8,"Which of the following is not a Gherkin keyword?","Given","When","For","Then","C"),
-(9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering");
+(9,"SOAP is used in?","RESTful API's","Web Services","Monoliths","Graphic Rendering","A");
