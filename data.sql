@@ -45,9 +45,9 @@ INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_
 (3,"Waterfall Method","This SDLC is heavily structured and resistant to change."),
 (1,"final","A modifier used for classes, variables, and methods which makes them unchangeable (impossible to inherit or override)."),
 (1,"Object","It is an instance of a class."),
-(1,"Class","It defines the common variables and methods of a set of objects.");
+(1,"Class","It defines the common variables and methods of a set of objects."),
 (4,"Test Execution", "the process of executing the code and comparing the expected and actual results."),
-(4,"Defect Reporting", "s a process of finding defects in the application under test or product by testing or recording feedback from customers"),
+(4,"Defect Reporting", "s a process of finding defects in the application under test or product by testing or recording feedback from customers");
 
 
 INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `correct_answer`) VALUES # (int <category_id>, string <question>, string <a>, string <b>, string <c>, string <d>, string<correct_answer>)
@@ -106,4 +106,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (4,"Which one of these are NOT one of the four levels of testing","Unit","System","Acceptance","Regression", "D"),
 (4,"Which best describes black box testing in terms of knowledge of the codes internal structure","tester has full knowledge of the internal code structure?","tester has partial knowledge of the internal code structure","tester has no knowledge of internal code structure","none of the above", "A"),
 (4,"There are 6 stages in the Software Testing Life Cycle","TRUE","FALSE","NULL","NULL", "A"),
+(2, "Which of the following is NOT an aggregate function in MySQL?", "RANGE()", "STD()", "COUNT()", "AVG()", "A"),
+(2, "Aggregate functions are often used with which SQL clause that helps categorize data?", "SELECT", "ORDER BY", "LEFT JOIN", "GROUP BY", "D"),
+(2, "Which is the BEST SQL query snippet to use if we want to know how many unique people have placed orders at an e-commerce store?", "SELECT MAX(customer_id) FROM customer;", "SELECT (MAX(customer_id) - MIN(customer_id)) AS total_customers FROM customer;", "SELECT COUNT(DISTINCT customer_id) FROM order;", "SELECT COUNT(customer_id) FROM order;", "C"),
 (4,"What is the first step in the Software Testing Life Cycle","Test Case Development","Test Planning","Test Execution","Requirement Analysis", "D");
