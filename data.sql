@@ -23,8 +23,8 @@ INSERT INTO category VALUES # (int <id>, string <name>)
 (6, "Selenium"),
 (7, "OOP"),
 (8, "Cucumber"),
-(9, "SOA"),
-(10, "REST");
+(15, "REST"),
+(9, "SOA");
 
 INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_id>, string <word>, string <definition>)
 (7,"inheritance","One of the four pillars of OOP, this solves the problem of redundant code by allowing more specific versions of a class to use an existing implementation of fields/methods."),
@@ -66,10 +66,12 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (3,"Verification is answering the question of whether the product was built consistent with the design and requirements.", "TRUE", "FALSE", NULL, NULL, "A"),
 (3,"Validation is answering the question of whether you're building the right product in the first place.", "TRUE", "FALSE",NULL, NULL, "A"),
 (4,"Which of the following is NOT a phase of Acceptance Test Driven Development?","Discuss","Develop","Demo","Distribute","D"),
+(4,"Whose perspective are acceptance tests written from?","Developer","User","Stakeholder","Management","B"),
 (7,"Which option best defines Abstraction?", "Abstraction is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Abstraction solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Abstraction is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions necessary to make its own contributions.", "Abstraction removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "A"),
 (7,"Which option best defines Encapsulation?", "Encapsulation solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Encapsulation is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Encapsulation removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "Encapsulation is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions necessary to make its own contributions.", "D"),
-(4,"Which type of testing is an example of non-functional testing?","Regression","Scalability","Sanity","","User","B"),
+(4,"Which type of testing is an example of non-functional testing?","Regression","Scalability","Sanity","User","B"),
 (7,"Which option best defines Inheritance?", "Inheritance is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions necessary to make its own contributions.", "Inheritance solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Inheritance is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Inheritance removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "B"),
+(4,"Which question does Acceptance Tests/Driven Development answer the best?","Did we build the thing properly?","What are we building?","Are we building the right thing?","What did we break?","C"),
 (9,"What does SOAP stand for?","Simple Object Access Protocol","Simple Orientation Assembly Project","Short Object Access Presentation","Sorted Array Profile","A"),
 (7,"Which option best defines Polymorphism?", "Polymorphism is the hiding of details and complexity from other interacting classes to both simplify and organize code.", "Polymorphism is the organization of fields and methods into logical groups, called classes, so that each class only needs to worry about its own data and actions.", "Polymorphism solves the problem of redundant code by allowing child classes to use their parent classes' fields/methods.", "Polymorphism removes the need for messy, long if/else blocks by letting child classes define their own variations on parent behavior as needed.", "D"),
 (4,"This testing is generally done after a change, fix or feature addition.", "Accessibility", "Production monitoring", "Regression", "Stress", "C"),
@@ -91,9 +93,12 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (10,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
 (10,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
 (10,"What is the status code for a success or ok?","200","405","202","369","A"),
+(15,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
+(15,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
+(15,"What is the status code is a success or ok?","200","405","202","369","A");
 (4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
-(8, "What is Cucumber?", "a type of edible plant that belongs to the gourd family", "a software tool that supports behavior-driven development", "a line-oriented language that uses indentation to define structure", "an open-source automation tool written in Java with plugins built for Continuous Integration purposes", "B"),
-(4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C"),
-(9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B"),
-(8, "Which process does Cucumber support", "ATD", "BDB", "DDD", "BDD", "D"),
-(8, "Which language is used in Cucumber", "Jeninks", "CSS", "Gherkin", "AWS", "C");
+(4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C");
+(9,"SOAP is used in?", "RESTful API's","Web Services", "Monoliths","Graphic Rendering","B");
+(4,"Smoke Testing is s quick test performed to ensure that the software works at the most basic level and doesn't crash when it's started.", "TRUE", "FALSE",NULL, NULL, "A"),
+(4,"Security testing tries to break a software's security checks, to gain access to confidential data", "TRUE", "FALSE",NULL, NULL, "A"),
+(4," What is a test environment?", "The room the test in preformed in", "a server/computer on which a tester runs their tests.", "the surroundings or conditions in which a tester operates", "a test done on the tester's surroundings", "B");
