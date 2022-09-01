@@ -23,7 +23,7 @@ INSERT INTO category VALUES # (int <id>, string <name>)
 (6, "Selenium"),
 (7, "OOP"),
 (8, "Cucumber"),
-(15, "REST");
+(15, "REST"),
 (9, "SOA");
 
 INSERT INTO vocab (`category_id`, `word`, `definition`) VALUES # (int <category_id>, string <word>, string <definition>)
