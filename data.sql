@@ -96,7 +96,7 @@ INSERT INTO multiple_choice (`category_id`, `question`, `a`, `b`, `c`, `d`, `cor
 (3,"Which of the following involves meeting with the customer to understand the requirements in the waterfall method?","Client Planning","Implementaion","Customer Review","Conversion","A"),
 (3,"At what stage are the individual components integrated and guaranteed they are error-free to meet customer requirements?","Implementation","Conversion","Coding","Testing","D"),
 (10,"Which of these are NOT a REST API command?","POST","DELETE", "UPDATE", "GET","C"),
-(10,"What type of request does REST sends?","XML","HTML","JSON","TXT","B"),
+(10,"What type of request does REST sends?","XML","HTTP","JSON","TXT","B"),
 (10,"What is the status code for a success or ok?","200","405","202","369","A"),
 (4,"Which of the following is not a phase of the SDLC?","Planning","Design","Testing/Integration","Verification","D"),
 (4,"In the SDLC, which word best matches the phase in which software is actually written out?", "Testing", "Design", "Implementation", "Deployment","C"),
